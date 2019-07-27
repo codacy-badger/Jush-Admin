@@ -20,6 +20,8 @@ end
 
 function TempAdmin(time, player)
     Admin[player.Username]=true
+    wait(time)
+    Admin[player.Username]=false
 end
 
 Chat.Received:connect(function(player, input)
