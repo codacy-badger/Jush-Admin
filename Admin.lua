@@ -1,4 +1,4 @@
--- Made by Jush
+-- Made by Jush and The Community
 -- Jush Admin [Open Source]
 -- If you want to contribute to this admin, submit a pull request at https://github.com/JushBJJ/Jush-Admin/pulls
 -- If you have a problem, issue it at https://github.com/JushBJJ/Jush-Admin/issues
