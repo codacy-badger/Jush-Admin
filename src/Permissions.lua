@@ -6,11 +6,11 @@ local Admin={
 
 script.OnServerMessage:connect(
     function(CallType, player)
-        if CallType=="Admin" then
+        if CallType:lower() == "admin" then
             Admin[player]=true
-        elseif CallType=="UnAdmin" then
+        elseif CallType:lower() == "unadmin" then
             Admin[player]=false
-        elseif CallType=="RECIEVE" then
+        elseif CallType:lower() == "recieve" then
             return Admin[player]
         end
     end
