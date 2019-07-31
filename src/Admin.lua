@@ -1,4 +1,3 @@
-local Owner_User=game:GetOwnerUsername()
 local Prefix=";"
 local Command
 local Command_Arguments={}
