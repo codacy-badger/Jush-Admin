@@ -1,3 +1,4 @@
+local Owner_User=game:GetOwnerUsername()
 local Admin={
   [Owner_User] = true,
   ["Isaac"] = true,
